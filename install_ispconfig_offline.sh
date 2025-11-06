@@ -5,10 +5,8 @@
 # Autor: ChatGPT
 # ================================================================
 
-set -e
-
 # --- CONFIGURACIÓN ---
-REPO_URL="https://github.com/JHONJCB/ispconfig_offline"
+REPO_URL="https://github.com/JHONJCB/ispconfig_offline/archive/refs/heads/main.zip"
 WORKDIR="/tmp/ispconfig_offline"
 
 echo "=============================================="
@@ -68,3 +66,4 @@ echo
 echo "=============================================="
 echo "       FIN DEL PROCESO OFFLINE                "
 echo "=============================================="
+
